@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Form and Tables</title>
+</head>
+<body>
+    <header><b>Let's fill some forms</b></header>
+    
+    <div>
+        <!-- First Form -->
+        <div>
+            <form>
+                <table border="2" class="table-primary">
+                    <tr>
+                        <th>Name</th>
+                        <th><input type="text" name="name" required></th>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" name="phone_number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="address"></td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                            <input type="radio" name="gender" value="Croissant">Croissant
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Business Category</td>
+                        <td>
+                            <select id="buscategory" name="buscategory" required>
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="Employed">Employed</option>
+                                <option value="Self-Employed">Self-Employed</option>
+                                <option value="Unemployed">Unemployed</option>
+                                <option value="Hustling">Hustling</option>
+                                <option value="Surviving">Surviving</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        
+        <!-- First Table -->
+        <div>
+            <table border="2" class="table-danger">
+                <thead>
+                    <tr>
+                        <th>Names</th>
+                        <th>Gender</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Datonic</td>
+                        <td>Prefer not to say</td>
+                        <td>4567890989</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>Amin</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>King Corel</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                    <tr>
+                        <td>Willie the Funfooler</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Second Form -->
+        <div>
+            <form>
+                <p>Name:</p>
+                <input type="text" name="name" required>
+                <p>Phone Number:</p>
+                <input type="text" name="phone_number" required>
+                <p>Address:</p>
+                <input type="text" name="address">
+                <p>Gender:</p>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="Croissant">Croissant
+                <p>Business Category:</p>
+                <select id="buscategory" name="buscategory" required>
+                    <option value="" disabled selected>Select a category</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Self-Employed">Self-Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Hustling">Hustling</option>
+                    <option value="Surviving">Surviving</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- Second Table -->
+        <div>
+            <table border="2" class="table-danger">
+                <thead>
+                    <tr>
+                        <th>Names</th>
+                        <th>Gender</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Datonic</td>
+                        <td>Prefer not to say</td>
+                        <td>4567890989</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>Amin</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Oluwa</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                    <tr>
+                        <td>Amin</td>
+                        <td>Male</td>
+                        <td>9878966876</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Third Form -->
+        <div>
+            <form>
+                <table border="2" class="table-primary">
+                    <tr>
+                        <th>Name</th>
+                        <th><input type="text" name="name" required></th>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" name="phone_number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><input type="text" name="address"></td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                            <input type="radio" name="gender" value="Croissant">Croissant
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Business Category</td>
+                        <td>
+                            <select id="buscategory" name="buscategory" required>
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="Employed">Employed</option>
+                                <option value="Self-Employed">Self-Employed</option>
+                                <option value="Unemployed">Unemployed</option>
+                                <option value="Hustling">Hustling</option>
+                                <option value="Surviving">Surviving</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
